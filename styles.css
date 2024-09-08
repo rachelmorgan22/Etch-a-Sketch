@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightcoral;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px; /* 16 squares * 40px each */
+    height: 640px; /* 16 squares * 40px each */
+}
+
+.square {
+    background-color: black;
+    border: 1px solid pink;
+    width: 40px;
+    height: 40px;
+}
